@@ -1,14 +1,4 @@
-// Header.tsx
-import React, { useState } from 'react';
-import styled from 'styled-components';
-
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   return (
     <>
       <header>
