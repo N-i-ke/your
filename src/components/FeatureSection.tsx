@@ -1,4 +1,7 @@
 import React from 'react';
+import Feature1 from '../assets/feature01.png';
+import Feature2 from '../assets/feature02.png';
+import Feature3 from '../assets/feature03.png';
 
 const FeatureSection: React.FC = () => {
   return (
@@ -12,7 +15,7 @@ const FeatureSection: React.FC = () => {
     <h2 className="feature-heading fade-in fade-in-up">高速コーディング</h2>
     <div className="feature-box">
       <figure>
-        <img src="img/feature01.png" alt="" className="fade-in fade-in-up" />
+        <img src={Feature1} alt="" className="fade-in fade-in-up" />
       </figure>
       <div>
         <div className="coading11">
@@ -55,14 +58,14 @@ const FeatureSection: React.FC = () => {
         </div>
       </div>
       <figure>
-        <img src="img/feature02.png" alt="" />
+        <img src={Feature2} alt="" />
       </figure>
     </div>
     {/*feauturebox*/}
     <h2 className="feature-heading fade-in fade-in-up">迅速なレスポンス</h2>
     <div className="feature-box">
       <figure>
-        <img src="img/feature03.png" alt="" />
+        <img src={Feature3} alt="" />
       </figure>
       <div>
         <div className="coading33">

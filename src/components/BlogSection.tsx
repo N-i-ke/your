@@ -1,3 +1,7 @@
+import Austin from '../assets/austin-distel-wawEfYdpkag-unsplash.png';
+import Dylan from '../assets/dylan-gillis-KdeqA3aTnBY-unsplash.png';
+import Brooke from '../assets/brooke-cagle-g1Kr4Ozfoac-unsplash.png';
+
 const BlogSection = () => {
   return (
 <section className="blog fade-in fade-in-up">
@@ -12,7 +16,7 @@ const BlogSection = () => {
       <div className="card-blog fade-in fade-in-up">
         <figure className="card__img-wrapper">
           <img
-            src="img/austin-distel-wawEfYdpkag-unsplash.png"
+            src={Austin}
             alt=""
             className="card__img"
           />
@@ -28,7 +32,7 @@ const BlogSection = () => {
       <div className="card-blog fade-in fade-in-up">
         <figure className="card__img-wrapper">
           <img
-            src="img/dylan-gillis-KdeqA3aTnBY-unsplash.png"
+            src={Dylan}
             alt=""
             className="card__img"
           />
@@ -43,7 +47,7 @@ const BlogSection = () => {
       <div className="card-blog fade-in fade-in-up">
         <figure className="card__img-wrapper">
           <img
-            src="img/brooke-cagle-g1Kr4Ozfoac-unsplash.png"
+            src={Brooke}
             alt=""
             className="card__img"
           />

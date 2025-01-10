@@ -1,10 +1,12 @@
+import Logo from '../assets/logo.png';
+
 const Header = () => {
   return (
     <>
       <header>
   <div className="header-inner">
     <div className="header-logo">
-      <img src="img/logo.png" alt="Logo" className="header-logo-img" />
+      <img src={Logo} alt="Logo" className="header-logo-img" />
       <h3 className="header-name">ユアコーディング</h3>
     </div>
     <nav>

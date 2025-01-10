@@ -1,4 +1,5 @@
 import React from 'react';
+import Main from '../assets/main.png';
 
 const MainSection: React.FC = () => {
   return (
@@ -27,7 +28,7 @@ const MainSection: React.FC = () => {
       </a>
     </div>
     <div className="main-image">
-      <img src="img/main.png" alt="メインイメージ" />
+      <img src={Main} alt="メインイメージ" />
     </div>
   </div>
 </section>
